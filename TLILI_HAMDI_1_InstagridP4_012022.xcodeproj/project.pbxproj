@@ -40,13 +40,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		363A18CB27E8E93600F783F5 /* Feature */ = {
+		363A18CB27E8E93600F783F5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				36D9152327DA43760063B19A /* GridController.swift */,
-				36D9152527DA43760063B19A /* GridController.storyboard */,
 			);
-			path = Feature;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		363A18CC27E8E94A00F783F5 /* Fonts */ = {
@@ -58,20 +57,30 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		363AC88328122C1900CE0CF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36D9152527DA43760063B19A /* GridController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		363BF60027F8A040008F6330 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				363BF60127F8A040008F6330 /* Photos.framework */,
 			);
 			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		36D9151327DA43760063B19A = {
 			isa = PBXGroup;
 			children = (
-				36D9151E27DA43760063B19A /* InstagridP4 */,
-				36D9151D27DA43760063B19A /* Products */,
-				363BF60027F8A040008F6330 /* Frameworks */,
+				36D9151E27DA43760063B19A /* Model */,
+				363AC88328122C1900CE0CF1 /* View */,
+				363A18CB27E8E93600F783F5 /* Controller */,
+				36D9153327DA65EE0063B19A /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,21 +90,22 @@
 				36D9151C27DA43760063B19A /* InstagridP4.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		36D9151E27DA43760063B19A /* InstagridP4 */ = {
+		36D9151E27DA43760063B19A /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				36D9151F27DA43760063B19A /* AppDelegate.swift */,
-				363A18CB27E8E93600F783F5 /* Feature */,
-				36D9153327DA65EE0063B19A /* Resources */,
 			);
-			path = InstagridP4;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		36D9153327DA65EE0063B19A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				363BF60027F8A040008F6330 /* Frameworks */,
+				36D9151D27DA43760063B19A /* Products */,
 				36D9152827DA43780063B19A /* Assets.xcassets */,
 				36D9152D27DA43780063B19A /* Info.plist */,
 				363A18CC27E8E94A00F783F5 /* Fonts */,
